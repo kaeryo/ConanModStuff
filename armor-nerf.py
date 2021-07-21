@@ -1,6 +1,8 @@
 import re
 
 #itemtable must be split to smaller pieces
+#setite choker gives error but works fine
+#silent legion light armor is missed
 tableOutput = open("armornerf.txt", "a")
 
 tableOutput.write("---,Name,ShortDesc,LongDesc,Icon,IconLayers,ItemClass,BuildingClass,VisualObject,ActionBlueprint_Use,MaxStackSize,EquipLocation,GUICategory,ItemTags,ArmourValue,")
